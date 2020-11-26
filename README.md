@@ -11,3 +11,4 @@ actually defines correctly the natural numbers. Also gives the basic theory of d
 </br> euclides.v proves one of the major techniques in elementary number theory which is the algorithm of euclides
 </br> bezout.v one of the most important results in elementary number theory
 </br> primes.v gives a formal proof for some of the most core theorems about primes, inculding the existence of a factorization about them.
+<pre><b>IMPORTANT</b> If you try to run any of the files basics.v, morebasics.v, euclides.v, bezout.v, primes.v on the CoqIDE it will not work, because even though I separated the code for the sake of better reading, one file needs the definitions of the other and that is why there is the file cat.v, which is concatenation of all the previous files, you can actually run cat.v in the COQIDE and it will work.</pre>
